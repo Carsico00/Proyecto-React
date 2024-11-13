@@ -1,0 +1,36 @@
+article.article {
+    display: flex !important;
+    flex-direction: row !important;
+    align-content: center !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    align-items: stretch !important;
+}
+img {
+    width: auto !important;
+    height: 35px !important;
+    border-radius: 100px !important;
+}
+button {
+    height: 20px !important;
+    font-size: 14px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-block: 5px !important;
+    display: flex !important;
+    border-radius: 100px !important;
+}
+strong {
+    color: aliceblue;
+}
+.profile {
+    flex: 1;
+    text-align: justify;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+span {
+    font-size: 10px;
+    color: beige;
+}
