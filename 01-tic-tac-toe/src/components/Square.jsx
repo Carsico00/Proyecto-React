@@ -1,3 +1,5 @@
+import React from "react";
+
 const Square = ({ value, onClick }) => {
     return (
       <div className='casilla' onClick={onClick}>
